@@ -26,6 +26,8 @@
 ;; init files
 (require '01server)
 (require '20ekey)
+(require '49elisp)
+(require '49fonts)
 (require '50config)
 
 (setq-default custom-file (concat user-cache-directory "custom.el"))
