@@ -1,1 +1,3 @@
-.cask
+*~
+.cache/
+.cask/
