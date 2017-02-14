@@ -3,6 +3,7 @@
 
 (depends-on "bind-key")
 (depends-on "cask")
+(depends-on "color-theme-solarized")
 (depends-on "dash")
 (depends-on "drag-stuff")
 (depends-on "exec-path-from-shell")

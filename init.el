@@ -23,12 +23,14 @@
 (require 'pallet)
 (pallet-mode t)
 
-;; init files
+;; init start
 (require '01server)
 (require '20ekey)
 (require '49elisp)
 (require '49fonts)
 (require '50config)
+(require '51theme)
+;; init end
 
 (setq-default custom-file (concat user-cache-directory "custom.el"))
 ;; load custom-file only when file exist

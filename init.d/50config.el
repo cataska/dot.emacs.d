@@ -32,6 +32,7 @@
 ;; Make window switching not so cumbersome
 (windmove-default-keybindings 'shift)
 
+;; Rebind key on Mac
 (if (eq system-type 'darwin)
     (progn
       (defadvice ansi-term (after advise-ansi-term-coding-system)
@@ -41,9 +42,16 @@
       (setq mac-option-modifier 'control)
       (setq mac-command-modifier 'meta)))
 
+;; Disable toolbar
 (tool-bar-mode -1)
 
 ;; no backup file
 (setq make-backup-files nil)
+
+;; Column number
+(column-number-mode t)
+
+;; Global linum mode
+(global-linum-mode t)
 
 (provide '50config)
