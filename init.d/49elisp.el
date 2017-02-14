@@ -1,7 +1,7 @@
 (use-package elisp-mode
   :config
   (use-package rainbow-delimiters
-    :init
+    :config
     (add-hook 'emacs-lisp-mode-hook #'rainbow-delimiters-mode))
   
   (use-package paredit
