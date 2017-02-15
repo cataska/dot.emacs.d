@@ -52,6 +52,12 @@
 (column-number-mode t)
 
 ;; Global linum mode
-(global-linum-mode t)
+(use-package linum
+  :config
+  (global-linum-mode t)
+  (setq linum-format "%d "))
+
+;; Enable indicate-unused-lines
+(setq-default indicate-unused-lines t)
 
 (provide '50config)

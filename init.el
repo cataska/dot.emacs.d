@@ -10,6 +10,7 @@
 (make-directory user-cache-directory t)
 
 (add-to-list 'load-path (concat user-emacs-directory "init.d"))
+(add-to-list 'auto-mode-alist '("Cask$" . emacs-lisp-mode))
 
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
