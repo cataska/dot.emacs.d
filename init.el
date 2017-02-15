@@ -27,11 +27,12 @@
 ;; init start
 (require '01server)
 (require '20ekey)
+(require '48theme)
 (require '49elisp)
+(require '49git)
 (require '49ido)
 (require '49fonts)
 (require '50config)
-(require '51theme)
 ;; init end
 
 (setq-default custom-file (concat user-cache-directory "custom.el"))
