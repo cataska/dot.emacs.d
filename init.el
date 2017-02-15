@@ -28,6 +28,7 @@
 (require '01server)
 (require '20ekey)
 (require '49elisp)
+(require '49ido)
 (require '49fonts)
 (require '50config)
 (require '51theme)

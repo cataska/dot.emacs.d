@@ -60,4 +60,7 @@
 ;; Enable indicate-unused-lines
 (setq-default indicate-unused-lines t)
 
+;; Disable startup screen
+(setq inhibit-startup-screen t)
+
 (provide '50config)
