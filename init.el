@@ -29,9 +29,10 @@
 (require '20ekey)
 (require '48theme)
 (require '49elisp)
+(require '49fonts)
 (require '49git)
 (require '49ido)
-(require '49fonts)
+(require '49mark-multiple)
 (require '50config)
 ;; init end
 
