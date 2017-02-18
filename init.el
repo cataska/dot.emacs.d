@@ -24,17 +24,24 @@
 (require 'pallet)
 (pallet-mode t)
 
+;; Bring $PATH variable to emacs
+(use-package exec-path-from-shell
+  :config
+  (when (memq window-system '(mac ns x))
+    (exec-path-from-shell-initialize)))
+
 ;; init start
-(require '01server)
-(require '20ekey)
-(require '48theme)
-(require '49dired)
-(require '49elisp)
-(require '49fonts)
-(require '49git)
-(require '49ido)
-(require '49mark-multiple)
-(require '50config)
+(use-package 01server)
+(use-package 20ekey)
+(use-package 48theme)
+(use-package 49clojure)
+(use-package 49dired)
+(use-package 49elisp)
+(use-package 49fonts)
+(use-package 49git)
+(use-package 49ido)
+(use-package 49mark-multiple)
+(use-package 50config)
 ;; init end
 
 (setq-default custom-file (concat user-cache-directory "custom.el"))

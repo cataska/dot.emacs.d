@@ -3,6 +3,8 @@
 
 (depends-on "bind-key")
 (depends-on "cask")
+(depends-on "clj-refactor")
+(depends-on "clojure-mode")
 (depends-on "color-theme-solarized")
 (depends-on "dash")
 (depends-on "dired-details")
