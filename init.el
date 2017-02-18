@@ -42,9 +42,5 @@
 (use-package 49ido)
 (use-package 49mark-multiple)
 (use-package 50config)
+(use-package 60custom)
 ;; init end
-
-(setq-default custom-file (concat user-cache-directory "custom.el"))
-;; load custom-file only when file exist
-(when (file-exists-p custom-file)
-  (load-file custom-file))
