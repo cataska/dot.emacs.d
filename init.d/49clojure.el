@@ -6,7 +6,12 @@
   (use-package cider
     :config
     (add-hook 'clojure-mode-hook #'cider-mode)
-    (add-hook 'cider-mode-hook #'eldoc-mode))
+    (add-hook 'cider-mode-hook #'eldoc-mode)
+
+    (use-package clj-refactor
+      :config
+      (add-hook 'clojure-mode-hook #'clj-refactor-mode)
+      (add-hook 'cider-repl-mode-hook #'clj-refactor-mode)))
   
   (use-package paredit
     :config
