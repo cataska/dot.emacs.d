@@ -34,6 +34,7 @@
 (use-package 01server)
 (use-package 20ekey)
 (use-package 48theme)
+(use-package 49auto-complete)
 (use-package 49clojure)
 (use-package 49dired)
 (use-package 49elisp)
@@ -41,6 +42,7 @@
 (use-package 49git)
 (use-package 49ido)
 (use-package 49mark-multiple)
+(use-package 49ocaml)
 (use-package 50config)
 (use-package 60custom)
 ;; init end
