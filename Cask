@@ -11,6 +11,7 @@
 (depends-on "dash")
 (depends-on "dired-details")
 (depends-on "drag-stuff")
+(depends-on "erlang")
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
 (depends-on "f")
