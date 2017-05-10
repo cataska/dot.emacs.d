@@ -11,7 +11,8 @@
     (use-package clj-refactor
       :config
       (add-hook 'clojure-mode-hook #'clj-refactor-mode)
-      (add-hook 'cider-repl-mode-hook #'clj-refactor-mode)))
+      (add-hook 'cider-repl-mode-hook #'clj-refactor-mode)
+      (add-hook 'clojure-mode-hook (lambda () (cljr-add-keybindings-with-prefix "C-c C-m")))))
   
   (use-package paredit
     :config
