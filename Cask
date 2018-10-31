@@ -3,6 +3,7 @@
 
 (depends-on "auto-complete")
 (depends-on "bind-key")
+(depends-on "cargo")
 (depends-on "cask")
 (depends-on "clj-refactor")
 (depends-on "clojure-mode")
@@ -32,6 +33,8 @@
 (depends-on "prodigy")
 (depends-on "projectile")
 (depends-on "rainbow-delimiters")
+(depends-on "rg")
+(depends-on "rust-mode")
 (depends-on "s")
 (depends-on "smartparens")
 (depends-on "smex")

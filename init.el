@@ -43,6 +43,8 @@
 (use-package 49ido)
 (use-package 49mark-multiple)
 (use-package 49ocaml)
+(use-package 49lisp)
+(use-package 49rust)
 (use-package 50config)
 (use-package 60custom)
 ;; init end
